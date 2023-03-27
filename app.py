@@ -4,5 +4,5 @@ app=Flask(__name__)
 def index():
     return "hellow world"
 
-#if __name__ == '__main__':
-    #app.run()
+if __name__ == '__main__':
+    app.run()
